@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="382.60869565217394" y="-430.58035714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="H25-7s-jee">
             <objects>
-                <viewController id="sbS-M3-DHr" sceneMemberID="viewController">
+                <viewController id="sbS-M3-DHr" customClass="SecondViewController" customModule="UKitLab2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o9z-tJ-JX5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,12 +80,18 @@
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                 </segments>
+                                <connections>
+                                    <action selector="TapSegmentedControl:" destination="sbS-M3-DHr" eventType="valueChanged" id="DYF-EU-Uoe"/>
+                                </connections>
                             </segmentedControl>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhK-VD-vAt">
                                 <rect key="frame" x="335" y="118" width="51" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fhK-VD-vAt" secondAttribute="height" multiplier="49:31" id="MyF-LN-p43"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="TapSwitch:" destination="sbS-M3-DHr" eventType="valueChanged" id="95Z-of-BiI"/>
+                                </connections>
                             </switch>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bi6-Db-Qdo">
                                 <rect key="frame" x="234" y="815" width="150" height="4"/>
@@ -101,6 +107,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7ur-YQ-rX7" secondAttribute="height" multiplier="19:5" id="YYy-FI-5xT"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="TapSlider:" destination="sbS-M3-DHr" eventType="valueChanged" id="dhG-rf-ymd"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vKG-LC-D83"/>
@@ -195,6 +204,9 @@
                                         <include reference="exm-Gp-qE1"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="close:" destination="zfR-Ks-Iwr" eventType="touchUpInside" id="GAa-rm-KsH"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ZaS-NX-JiS">
                                 <rect key="frame" x="20" y="329" width="221.5" height="127.5"/>
