@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		FB0FEE8F25E46B4700F33677 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0FEE8E25E46B4600F33677 /* InfoViewController.swift */; };
 		FB0FEE9225E4714100F33677 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0FEE9125E4714100F33677 /* SecondViewController.swift */; };
-		FBB59C6C25E40E7300C2C7A6 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBB59C6B25E40E7300C2C7A6 /* avatar.jpg */; };
-		FBB59C6F25E4389B00C2C7A6 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBB59C6E25E4389B00C2C7A6 /* avatar.jpg */; };
-		FBB59C7225E44FDB00C2C7A6 /* close.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBB59C7125E44FDB00C2C7A6 /* close.jpg */; };
 		FBC2F9AB25E3F1070095A0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC2F9AA25E3F1070095A0C6 /* AppDelegate.swift */; };
 		FBC2F9AD25E3F1070095A0C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC2F9AC25E3F1070095A0C6 /* SceneDelegate.swift */; };
 		FBC2F9AF25E3F1070095A0C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC2F9AE25E3F1070095A0C6 /* ViewController.swift */; };
@@ -23,9 +20,6 @@
 /* Begin PBXFileReference section */
 		FB0FEE8E25E46B4600F33677 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		FB0FEE9125E4714100F33677 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		FBB59C6B25E40E7300C2C7A6 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpg; path = ../../../avatar.jpg; sourceTree = "<group>"; };
-		FBB59C6E25E4389B00C2C7A6 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpg; path = ../../../avatar.jpg; sourceTree = "<group>"; };
-		FBB59C7125E44FDB00C2C7A6 /* close.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = close.jpg; path = ../../../close.jpg; sourceTree = "<group>"; };
 		FBC2F9A725E3F1070095A0C6 /* UKitLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UKitLab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC2F9AA25E3F1070095A0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC2F9AC25E3F1070095A0C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,9 +65,6 @@
 				FBC2F9AE25E3F1070095A0C6 /* ViewController.swift */,
 				FBC2F9B025E3F1070095A0C6 /* Main.storyboard */,
 				FBC2F9B325E3F10B0095A0C6 /* Assets.xcassets */,
-				FBB59C7125E44FDB00C2C7A6 /* close.jpg */,
-				FBB59C6B25E40E7300C2C7A6 /* avatar.jpg */,
-				FBB59C6E25E4389B00C2C7A6 /* avatar.jpg */,
 				FBC2F9B525E3F10B0095A0C6 /* LaunchScreen.storyboard */,
 				FBC2F9B825E3F10B0095A0C6 /* Info.plist */,
 				FB0FEE8E25E46B4600F33677 /* InfoViewController.swift */,
@@ -139,9 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB59C7225E44FDB00C2C7A6 /* close.jpg in Resources */,
-				FBB59C6C25E40E7300C2C7A6 /* avatar.jpg in Resources */,
-				FBB59C6F25E4389B00C2C7A6 /* avatar.jpg in Resources */,
 				FBC2F9B725E3F10B0095A0C6 /* LaunchScreen.storyboard in Resources */,
 				FBC2F9B425E3F10B0095A0C6 /* Assets.xcassets in Resources */,
 				FBC2F9B225E3F1070095A0C6 /* Main.storyboard in Resources */,
@@ -312,7 +300,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nurdinov.lab.UKitLab2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurdinov.UKitLab2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -330,7 +318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nurdinov.lab.UKitLab2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurdinov.UKitLab2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
